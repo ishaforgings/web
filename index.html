@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!-- <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISHA Forging Co.</title>
@@ -70,6 +70,27 @@
             display: inline-block;
             margin-bottom: 20px;
         }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #dee2e6;
+        }
+
+        th {
+            background-color: #f1f1f1;
+            color: #212529;
+            font-weight: 600;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
 
         .image-captioned {
             float: right;
@@ -114,6 +135,132 @@
             }
         }
     </style>
+</head> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISHA Forging Co.</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+        }
+
+        .navbar {
+            background-color: #003366;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #f8f9fa;
+            font-size: 1.05rem;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffcc00;
+        }
+
+        .carousel-inner img {
+            object-fit: cover;
+            height: 450px;
+        }
+
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        section h2 {
+            color: #003366;
+            border-left: 5px solid #ffcc00;
+            padding-left: 12px;
+            margin-bottom: 25px;
+        }
+
+        .section:hover {
+            transform: scale(1.01);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .image-captioned {
+            float: right;
+            max-width: 320px;
+            margin-left: 20px;
+            border: 3px solid #ffcc00;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #dee2e6;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            color: #212529;
+            font-weight: 600;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #f8f9fa;
+            padding: 40px 20px 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffcc00;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .image-captioned {
+                float: none;
+                margin: 20px 0;
+                max-width: 100%;
+            }
+
+            .navbar-brand {
+                font-size: 1.3rem;
+            }
+
+            .carousel-inner img {
+                height: 300px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -129,9 +276,9 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#section1">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="#section2">Our Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section3">Quality Assurance</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section4">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section5">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section3">Forging Capabilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section5">Product Range</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section6">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -185,44 +332,97 @@
         <section id="section1">
             <h2>About Us</h2>
             <img src="./images/119.jpg" alt="About Us" class="image-captioned img-fluid">
-            <p>For over 50 years, ISHA Forging Co. has been a leader in forging solutions, delivering unmatched quality and innovation. Our expert team ensures every product exceeds industry standards.</p>
+            <p>Forging is a precision metal shaping process in which a heated workpiece is deformed using compressive forces to achieve the desired shape and mechanical properties. At Isha Forgings, we specialize in open die forging, closed die forging, and ring rolling since 2001.</p>
+<p><strong>SK Industries</strong>, our wholly-owned subsidiary, is dedicated to precision machining operations. Equipped with advanced CNC, VMC, and VTL machinery, SK Industries ensures that forged components are machined to exacting customer specifications, supporting industries such as automotive, valve, oil & gas, and general engineering.</p>
+    <p>Open die forging involves working the material between flat or contoured dies to gradually achieve the final shape, ideal for large or custom-shaped parts. Closed die forging uses impression dies that completely enclose the workpiece, producing components with high dimensional accuracy and repeatability. Ring rolling is employed to produce seamless rolled rings with superior grain flow, structural integrity, and efficiency.</p>
+  
         </section>
 
         <!-- Our Services -->
         <section id="section2" class="mt-5">
             <h2>Our Services</h2>
             <img src="./images/pexels-tima-miroshnichenko-5846131.jpg" alt="Services" class="image-captioned img-fluid">
+            <img src="./images/pexels-tima-miroshnichenko-5846269.jpg" alt="Quality Assurance" class="image-captioned img-fluid">
             <ul>
-                <li>Hot Forging</li>
-                <li>Cold Forging</li>
-                <li>Die Forging</li>
-                <li>Open & Closed Die Forging</li>
-            </ul>
+				<li>Carbon & Alloy Steels</li>
+				<li>Stainless Steels</li>
+				<li>Nickel Alloys</li>
+				<li>Aluminum Alloys</li>
+			</ul>
         </section>
 
         <!-- Quality Assurance -->
         <section id="section3" class="mt-5">
-            <h2>Quality Assurance</h2>
-            <img src="./images/pexels-tima-miroshnichenko-5846269.jpg" alt="Quality Assurance" class="image-captioned img-fluid">
-            <p>We ensure rigorous testing and inspections for every product, with advanced technology and certifications proving our commitment to quality.</p>
+        <h2>Forging Capabilities</h2>
+    <table>
+      <tr><th>Process</th><th>Description</th></tr>
+      <tr><td>Open Die Forging</td><td>Gradual shaping between flat or contoured dies - ideal for large, customized, or low-quantity parts.</td></tr>
+      <tr><td>Closed Die Forging</td><td>Impression dies fully enclose the workpiece - ensures high repeatability and precision for medium to high-volume production.</td></tr>
+      <tr><td>Ring Rolling</td><td>Produces seamless rolled rings with excellent grain flow and structural integrity - supports critical applications across multiple industries.</td></tr>
+    </table>
         </section>
 
         <!-- Projects -->
         <section id="section4" class="mt-5">
-            <h2>Projects</h2>
-            <p>From automotive to aerospace, we’ve delivered premium forged components to top industries worldwide.</p>
+        <h2>Manufacturing Facilities</h2>
+            <table>
+              <tr><th>Equipment</th><th>Capacity / Description</th></tr>
+              <tr><td>1 MT Drop Hammer</td><td>Heavy-duty open die forging</td></tr>
+              <tr><td>1 MT Pneumatic Hammer</td><td>Controlled impact for precision shaping</td></tr>
+              <tr><td>300 MT Trim Press</td><td>Accurate trimming and flash removal</td></tr>
+              <tr><td>Ring Rolling Machine</td><td>Rings up to Ø 1000 mm</td></tr>
+              <tr><td>WMW Lathe Machines</td><td>Up to Ø 700 mm × 2000 mm length</td></tr>
+              <tr><td>CNC Turning Center</td><td>Up to Ø 400 mm × 1250 mm length</td></tr>
+              <tr><td>Vertical Turning Lathe (VTL)</td><td>Up to Ø 1000 mm × 500 mm length</td></tr>
+              <tr><td>HMT Milling Machine</td><td>700 mm × 300 mm × 300 mm working area</td></tr>
+              <tr><td>Vertical Machining Center (VMC)</td><td>800 mm × 800 mm × 400 mm capacity</td></tr>
+            </table>
         </section>
 
+        <section id="section5" class="mt-5">
+            <h2>Product Range</h2>
+        
+            <h3>🔨 Open Die Forging</h3>
+            <ul>
+              <li>Shafts – turbines, motors, and heavy-duty drives</li>
+              <li>Discs & Hubs – aerospace and power equipment</li>
+              <li>Mandrels & Bars – rolling mill and forging equipment</li>
+            </ul>
+            
+        
+            <h3>🛠️ Closed Die Forging</h3>
+            <ul>
+              <li>Automotive Parts – crankshafts, camshafts, gears</li>
+              <li>Railway & Agricultural Hardware – hooks, rods, levers</li>
+              <li>Valve Bodies and Industrial Fittings</li>
+            </ul>
+          
+        
+            <h3>🔄 Ring Rolling</h3>
+            <ul>
+              <li>Seamless Rolled Rings – for bearings and gear blanks</li>
+              <li>Flanges and Couplings – pressure vessels, pipelines</li>
+              <li>Aerospace Rings – turbine engine and structural use</li>
+            </ul>
+        </section>
+            
+
         <!-- Contact Us -->
-        <section id="section5" class="mt-5 mb-5">
+        <section id="section6" class="mt-5 mb-5">
             <h2>Contact Us</h2>
             <p><strong>Email:</strong> info@ishaforgings.com</p>
             <p><strong>Phone:</strong> +91-7483330655</p>
         </section>
     </div>
+	</div>
 
     <!-- Footer -->
     <footer>
+        <h2>Vision</h2>
+    <p>To be a prominent and reliable business partner, recognized globally for forging excellence and customer trust.</p>
+
+    <h2>Mission</h2>
+    <p>To consistently meet and exceed customer expectations through technological advancement, quality focus, and a culture of continuous improvement.</p>
         <p>&copy; <span id="currentYear"></span> ISHA Forging Co. All rights reserved.</p>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
